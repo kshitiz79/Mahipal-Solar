@@ -38,12 +38,12 @@ const socialIcons = [
   {
     name: "Instagram",
     icon: faInstagram,
-    link: "https://www.instagram.com/urbanchanakya.in",
+    link: "https://www.instagram.com/vikramsolar_official/",
   },
   {
     name: "LinkedIn",
     icon: faLinkedin,
-    link: "https://www.linkedin.com/company/urbanchanakya",
+    link: "https://www.linkedin.com/company/vikram-solar/?originalSubdomain=in",
   },
   {
     name: "Twitter",

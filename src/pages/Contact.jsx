@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faFacebookF,
   faInstagram,
   faLinkedin,
   faXTwitter,
@@ -48,9 +49,15 @@ const socialIcons = [
   {
     name: "Twitter",
     icon: faXTwitter,
-    link: "https://x.com/ChanakyaUrban",
+    link: "https://x.com/VikramSolar",
+  },
+   {
+    name: "Facebook",
+    icon: faFacebookF,
+    link: "https://x.com/VikramSolar",
   },
 ];
+
 
 export default function Contact() {
   const [openId, setOpenId] = useState(null);
@@ -84,7 +91,7 @@ export default function Contact() {
             </form>
             <div className="text-center text-white text-sm space-y-1">
               <div className="uppercase tracking-widest">Direct Email</div>
-              <div className="text-lg font-light">hello@urbanchanakya.in</div>
+              {/* <div className="text-lg font-light">hello@urbanchanakya.in</div> */}
             </div>
             <div className="grid grid-cols-3 gap-4 mt-4">
               {socialIcons.map((item) => (
